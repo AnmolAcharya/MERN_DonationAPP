@@ -8,7 +8,7 @@ import checkoutRouter from "./router/checkoutRouter.js";
 const app = express();
 dotenv.config({ path: "./config.env" });
 
-app.use(
+app.use(                                //cors used to connect the frontend and the backend 
   cors({
     origin: [process.env.FRONTEND_URL],
     methods: ["POST"],

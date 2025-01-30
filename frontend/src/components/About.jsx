@@ -7,7 +7,7 @@ const About = () => {
         <div className="banner">
           <h1>Our Story</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+            We are commited to help you and your dreams of helping others!, dolor sit amet consectetur adipisicing elit. Laudantium
             ipsum voluptatum excepturi temporibus eligendi molestiae, vero
             corporis earum beatae nobis ea vitae non repudiandae libero
             necessitatibus? Rem eum sunt itaque recusandae ipsam saepe, aliquid
