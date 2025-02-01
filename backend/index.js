@@ -19,6 +19,13 @@ app.use(                                //cors used to connect the frontend and 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get("/", (req,res) => {
+  res.json({
+    success: true,
+    message: "Check SITE!",
+  })
+})
+
 app.use("/api/v1/messages", messageRouter);
 app.use("/api/v1", checkoutRouter);
 
