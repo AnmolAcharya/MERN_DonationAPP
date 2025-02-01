@@ -4,30 +4,30 @@ const Qualities = () => {
   const qualities = [
     {
       id: 1,
-      image: "/community.jpg",
-      title: "COMMUNITY DEVELOPMENT",
+      image: "/finburden.png",
+      title: "Remove Financial Burden",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis culpa odio numquam ill laudantium nobis non illum cupiditate vero possimus quod quia nam, unde, labore suscipit obcaecati minus voluptates, autem velit.Facere numquam cum modi, molestiae eius libero mollitia aut!",
+        "Your donations help remove the financial burden for students struggling to make ends meet, empowering them to focus on their studies and achieve their dreams. Every contribution directly supports students in need, making a lasting impact on their education and future!",
     },
     {
       id: 2,
-      image: "/transparency.jpg",
-      title: "TRANSPARENCY",
+      image: "/fin.png",
+      title: "FINANCE 101",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis culpa odio numquam ill laudantium nobis non illum cupiditate vero possimus quod quia nam, unde, labore suscipit obcaecati minus voluptates, autem velit.Facere numquam cum modi, molestiae eius libero mollitia aut!",
+        "Finance 101 is here to help you master the art of managing your money, from budgeting to saving and investing. We’ll guide you through essential financial skills to set you up for success and financial independence.",
     },
     {
       id: 3,
-      image: "/impact.jpg",
-      title: "IMPACT MEASUREMENT",
+      image: "/grad.jpg",
+      title: "HUSTLE",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis culpa odio numquam ill laudantium nobis non illum cupiditate vero possimus quod quia nam, unde, labore suscipit obcaecati minus voluptates, autem velit.Facere numquam cum modi, molestiae eius libero mollitia aut!",
+        "Hustle is all about supporting you every step of the way. Our team is here to help you excel at uni with creative ideas, career advice, and the guidance you need to turn your goals into reality.",
     },
   ];
   return (
     <>
       <div className="qualities">
-        <h2>OUR QUALITIES</h2>
+        <h2>OUR VISION</h2>
         <div className="container">
           {qualities.map((elememt) => {
             return (

@@ -8,7 +8,10 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  background: #333333; color: #fff;
 }
+
+
 .btn {
   background: #facc15;
   color: #fff;
@@ -228,7 +231,7 @@
 .contact .banner form textarea {
   background: #8080805e;
   border: none;
-  color: #555;
+  color: wheat;
   padding: 8px 3px;
 }
 @media (max-width: 920px) {
@@ -268,85 +271,59 @@
 footer {
   background: #111;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px; /* Slightly increased padding for a more balanced look */
   border-bottom: 1px solid rgb(133, 133, 133);
-  padding: 40px 20px 20px 20px;
+  height: 120px; /* Increased height for more space */
 }
+
+footer .quote {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+
 footer div {
   flex: 1;
-  padding-right: 20px;
 }
-footer div:first-child {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer div img {
-  width: 200px;
-}
-footer div h4 {
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 26px;
-  margin-bottom: 20px;
-}
+
 footer div ul {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  color: gainsboro;
+  justify-content: space-around; /* Spaced out the links horizontally */
+  margin: 0;
 }
+
 footer div ul li {
-  overflow-y: hidden;
+  list-style: none;
 }
+
 footer div ul a {
   text-decoration: none;
   color: gainsboro;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  font-size: 16px;
 }
-footer div ul a span {
-  display: flex;
-}
-.copyright {
-  background: #111;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: #8080805c;
-  font-weight: 300;
-  padding: 20px;
-}
-@media (max-width: 1112px) {
-  footer {
-    flex-wrap: wrap;
-    padding: 40px 40px 20px 40px;
-  }
-  footer div {
-    flex: none;
-    width: 50%;
-    margin-bottom: 30px;
-  }
-  footer div:first-child {
-    justify-content: flex-start;
-  }
-}
+
+/* Mobile adjustments */
 @media (max-width: 606px) {
-  footer div:first-child {
-    justify-content: center;
-  }
-  footer div img {
-    width: 270px;
-  }
   footer {
+    flex-direction: column;
+    height: auto;
     padding: 20px;
   }
-  footer div {
-    width: 100%;
-    padding: 0;
+
+  footer div ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div ul li {
+    margin-bottom: 10px;
   }
 }
+
+
 
 /*******************NAVBAR COMPONENT***************************************/
 
@@ -364,7 +341,7 @@ footer div ul a span {
   flex: 1;
 }
 .navbar .logo img {
-  width: 100px;
+  width: 170px;
 }
 .navbar .links {
   flex: 2;
@@ -382,7 +359,7 @@ footer div ul a span {
 .navbar .links ul li a {
   text-decoration: none;
   display: flex;
-  color: #444;
+  color: wheat;
   transition: 0.3s;
 }
 .navbar .links ul li a:hover {
@@ -536,7 +513,7 @@ footer div ul a span {
   margin-bottom: 12px;
 }
 .members .container .heading_section h2 {
-  color: #111;
+  color: wheat;
   font-size: 32px;
   font-weight: 600;
 }
@@ -544,6 +521,7 @@ footer div ul a span {
   color: #333;
   font-size: 18px;
   font-weight: 300;
+  font-style: italic;
   max-width: 650px;
 }
 .members .container .members_container {
@@ -634,7 +612,7 @@ footer div ul a span {
   width: 100%;
 }
 .qualities h2 {
-  color: #111;
+  color: wheat;
   font-size: 32px;
   font-weight: 600;
 }
@@ -660,7 +638,7 @@ footer div ul a span {
 .qualities .container .card .content .description {
   font-size: 22px;
   font-weight: 400;
-  color: #333;
+  color: white;
 }
 .qualities .container .card:nth-child(2) {
   flex-direction: row-reverse;
@@ -698,19 +676,39 @@ footer div ul a span {
   justify-content: center;
 }
 .hero .banner h1 {
-  font-size: 4rem;
+  /* font-size: 4rem;
   font-weight: 600;
-  color: #facc15;
+  color: #facc15; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;  /* Bold, Gen Z vibes */
+  color: #7DF9FF;  /* Electric Blue */
+  text-align: center;
+  letter-spacing: 3px;  /* Extra space between letters for a modern look */
+  text-transform: uppercase;  /* To make it bold and crisp */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+  padding: 20px 0;  /* Top and bottom padding for spacing */
+  margin: 0;  /* Remove default margin */
+  font-size: 3rem;  /* Big header for impactful presence */
 }
 .hero .banner h3 {
-  font-size: 3rem;
+  /* font-size: 3rem;
   font-weight: 500;
-  color: #172554;
+  color: #172554; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;  /* Bold, Gen Z vibes */
+  font-size: 2rem;  /* For sub-headings */
+  color: whitesmoke;  /* Neon Yellow for a bright pop */
+  text-align: center;
+  letter-spacing: 3px;  /* Extra space between letters for a modern look */
+  text-transform: uppercase;  /* To make it bold and crisp */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+  padding: 20px 0;  /* Top and bottom padding for spacing */
+  margin: 0;  /* Remove default margin */
 }
 .hero .banner p {
   max-width: 520px;
   margin: 40px 0;
-  color: gray;
+  color: wheat;
 }
 .hero .banner a {
   width: fit-content;

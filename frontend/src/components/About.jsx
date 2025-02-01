@@ -7,17 +7,11 @@ const About = () => {
         <div className="banner">
           <h1>Our Story</h1>
           <p>
-            We are commited to help you and your dreams of helping others!, dolor sit amet consectetur adipisicing elit. Laudantium
-            ipsum voluptatum excepturi temporibus eligendi molestiae, vero
-            corporis earum beatae nobis ea vitae non repudiandae libero
-            necessitatibus? Rem eum sunt itaque recusandae ipsam saepe, aliquid
-            delectus magni iste dignissimos vitae quas aut aspernatur dolor hic
-            esse ex sint perferendis ipsa dolore. Earum facilis ducimus illum
-            vero fuga ipsum, ad nulla dolorem.
+          At CampusCushion, we’re dedicated to easing the financial burden on students by collecting donations that directly support those in need. Our mission goes beyond just financial help – our team is committed to empowering students with essential tools to manage their finances, offering guidance on budgeting, saving, and investing. Along with financial support, we provide valuable career advice and insights to help students thrive at university and set themselves up for success in their future careers.
           </p>
         </div>
         <div className="banner">
-          <img src="/about.png" alt="aboutImg" />
+          <img src="/Z.png" alt="aboutImg" />
         </div>
       </div>
     </section>

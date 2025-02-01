@@ -23,7 +23,8 @@ export const checkout = async (req, res) => {
 };
 
 //Base URL
-const cryptomus = axios.create({ baseURL: "https://api.cryptomus.com/v1" });
+const cryptomus = axios.create({ baseURL: "https://api.cryptomus.com/v1" }); 
+// const cryptomus = axios.create({ baseURL: "https://api.cryptomus.com/v1" }); //older version of the link used in here!
 
 const createInvoice = async (amount) => {
   try {
@@ -31,9 +32,9 @@ const createInvoice = async (amount) => {
       amount: amount,
       currency: "USD",
       order_id: crypto.randomBytes(12).toString("hex"),
-      url_return: "https://mern-stack-volunteer.vercel.app/donate",
-      url_success: "https://mern-stack-volunteer.vercel.app",
-      lifetime: 300,
+      url_return: "https://mern-donation-app.vercel.app//donate",
+      url_success: "https://mern-donation-app.vercel.app/",
+      lifetime: 300, //300 seconds given here!@!$#
     };
 
     const sign = crypto

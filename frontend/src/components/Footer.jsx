@@ -1,28 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  FaSquareTwitter,
-  FaSquareInstagram,
-  FaYoutube,
-  FaLinkedin,
-} from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <footer>
-      <div>
-        <img src="/logo.png" alt="logo" />
+      <div className="quote">
+        <p>"Helping students rise, one step at a time."</p>
       </div>
       <div>
-        <h4>Support</h4>
-        <ul>
-          <li>New York, USA</li>
-          <li>crypto@gmail.com</li>
-          <li>+92 123123123</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
         <ul>
           <li>
             <Link to={"/"}>Home</Link>
@@ -35,47 +20,6 @@ const Footer = () => {
           </li>
           <li>
             <Link to={"/contact"}>Contact</Link>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h4>Follow Us</h4>
-        <ul>
-          <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaSquareTwitter />
-              </span>{" "}
-              <span>Twitter (X)</span>{" "}
-            </Link>
-          </li>
-          <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaYoutube />
-              </span>{" "}
-              <span>Youtube</span>{" "}
-            </Link>
-          </li>
-          <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaSquareInstagram />
-              </span>{" "}
-              <span>Instagram</span>{" "}
-            </Link>
-          </li>
-          <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaLinkedin />
-              </span>{" "}
-              <span>Linkedin</span>{" "}
-            </Link>
           </li>
         </ul>
       </div>

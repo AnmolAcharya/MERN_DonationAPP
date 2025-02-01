@@ -4,46 +4,46 @@ const Members = () => {
   const members = [
     {
       id: 1,
-      image: "/m1.jpg",
-      title: "Alexa",
+      image: "/founder.jpg",
+      title: "Founder",
     },
     {
       id: 2,
-      image: "/m2.jpg",
-      title: "Jhon",
+      image: "/alek.jpg",
+      title: "Co-Founder",
     },
     {
       id: 3,
-      image: "/m3.jpg",
-      title: "Michael",
+      image: "/beren.JPG",
+      title: "CFO",
     },
     {
       id: 4,
-      image: "/m4.jpg",
-      title: "Rober",
+      image: "/investor.JPG",
+      title: "Investor",
     },
     {
       id: 5,
-      image: "/m5.jpg",
-      title: "Siri",
+      image: "/niku.jpg",
+      title: "StakeHolder",
     },
     {
       id: 6,
-      image: "/m6.jpg",
-      title: "Tobey",
+      image: "/Model.jpg",
+      title: "COO",
     },
-    {
-      id: 7,
-      image: "/m7.jpg",
-      title: "Jhon Wick",
-    },
+    // {
+    //   id: 7,
+    //   image: "/m7.jpg",
+    //   title: "Jhon Wick",
+    // },
   ];
   return (
     <>
       <section className="members">
         <div className="container">
           <div className="heading_section">
-            <h2 className="heading">MEMBERS</h2>
+            <h2 className="heading">OUR (GENZ) FAM</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               accusamus aspernatur hic laboriosam blanditiis atque error eius
